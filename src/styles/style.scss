@@ -1,0 +1,16 @@
+body {
+  transition: all 0.3s;
+}
+
+p {
+  margin: 0;
+}
+
+@import "./utils/normalize";
+@import './utils/variables';
+@import "./utils/mixins";
+
+@import "blocks/header";
+@import "blocks/sidebar";
+
+@import "blocks/footer";
